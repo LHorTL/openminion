@@ -151,6 +151,7 @@ def build_runtime_cache_lookup_key(
         budget_telemetry_hash,
         continuity_query_hash,
         gateway_context_hash,
+        request.repository_root or "",
     )
 
 
